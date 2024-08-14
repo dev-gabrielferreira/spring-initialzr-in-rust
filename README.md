@@ -5,7 +5,9 @@ To create a project you must specify the dependencies, the package name and the 
 The application name will be applied to the spring server initializer file.
 
 **Accepted dependencies** <br>
-*In the future more may be added
+*In the future more may be added <br>
+
+"web", "data-jpa", "security", "thymeleaf", "actuator", "batch", "kafka", "devtools", "mail", "flyway", "liquibase", "redis", "amqp", "validation", "h2", "web-services", "graphql", "cache", "mysql", "postgresql"
 
 **Commands** <br>
 -n for project name (required) <br>
@@ -15,7 +17,7 @@ The application name will be applied to the spring server initializer file.
 
 1. **Clone the repository**
    ```bash
-   git clone github.com/dev-gabrielferreira/spring-initialzr-in-rust
+   git clone https://github.com/dev-gabrielferreira/spring-initialzr-in-rust
 
 2. **Go to the directory**
    ```bash
